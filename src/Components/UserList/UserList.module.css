@@ -1,0 +1,20 @@
+.userList__container{
+    align-items: center;
+}
+.userList{
+    padding:0;
+    list-style: none;
+    text-align: center;
+    margin:auto;
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.userList >li{
+    margin:0.5rem;
+    box-shadow: 0.1px 0.1px 2px 1px rgba(107, 104, 104, 0.836);
+    width:max-content;
+    padding:10px;
+    border-radius: 0.3rem;
+}
